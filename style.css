@@ -1,0 +1,102 @@
+body{
+    background-color: #111111;
+    font-family: 'Open Sans';
+   color: #fff;
+}
+.box{
+    display: flex;
+}
+.pages{
+    display: flex;
+    width: 50%;
+    font-size: 0.7rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#logo{
+    width: 50%;
+}
+.image_fem{
+    width: 40%;
+       
+}
+.image_fem img{
+
+    height: 500px;
+    display: block;
+    margin-left: auto;
+}
+#description{
+width: 60%;
+margin-top: 100px;
+line-height: 1.6;
+}
+.rouge{
+    color:#c91a27;
+}
+.gras{
+    font-weight: bold;
+}
+.lorem{
+    font-size: 0.8rem;
+
+}
+.button{
+    width: 80px;
+    height:30px;
+    font-size: 0.7rem;
+    background: #e81120;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+   text-align: center;
+   margin-top: 20px;
+    
+}
+.container{
+
+    transform: translateX(50%);
+}
+.container3{
+margin-left: 20%;
+margin-top: 5%;
+
+}
+.feature{
+    width:50%;
+    line-height: 1.7;
+}
+.cont{
+    width:100px;
+    background-color: #1e1e1e;
+    padding: 45px;
+    margin-top:50px;
+   
+}
+.titre{
+    font-size: 1.2rem;
+}
+.rouge_mil{
+
+    background:#c91a27;
+    color: #fff;
+   
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container2 .cont{
+    height:30px;
+}
+.cont_img{
+    width: 240px;
+    height: 200px;
+    background-color: #1e1e1e;
+    padding: 20px;
+   
+}
+.image img{
+    width:240px;
+    height:160px;
+}
